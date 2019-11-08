@@ -19,4 +19,11 @@ the Nir image we dehaze the hazy RGB image.
 Structure transferring: We are given two different images. One of them is used as background and the other one foreground. 
 We transfer the details of foreground image onto background image by scaling the details. We create different visual effects.
 
+Flash-Noflash deniosing: The inputs are flash and no-flash images. Flash image carry the structural details but deteriorate 
+ambient illumination. Noflash image has ambient illumination information but noisy. To denoise noflash image we exploit
+flash image and recall the structural details by combining with ambient information of noflash image. The output is 
+denoised noflash image.
+
+Flash-Noflash deblurring: The flash image has structural details. Noflash image is blurred. The blurred noflash image is 
+deblurred by recalling the details from flash image yet preserving ambient information on noflash image.
 
