@@ -6,9 +6,13 @@ of different modality. Besides, RGB images taken from the same camera and positi
 be viewed as multi-modal images. For instance, day and night shot, flash and no flash shots are examples of this 
 category.
 
+We developed unsupervised real-time joint image filtering method.
+
 Aim:
 Filter a trget image by the guidance of different modality images to improve the target image. We show different 
-appliations here:
+appliations here. We obtained state-of-the-art results with significantly faster than available methods.
+
+Applications:
 
 Day-night restoration: Night image has no adequate illumination so it misses th details. By using day image we recall the details from day image and combine it with the ambient information of night image. We transfer structural details from day
 image to night image.
