@@ -10,3 +10,9 @@ Aim:
 Filter a trget image by the guidance of different modality images to improve the target image. We show different 
 appliations here:
 
+Day-night restoration: Night image has no adequate illumination so it misses th details. By using day image we recall the details from day image and combine it with the ambient information of night image. We transfer structural details from day
+image to night image.
+
+RGB-Nir restoration: There are two input images one of which is hazy RGB image. The other one is gray level Nir image. Using
+the Nir image we dehaze the hazy RGB image.
+
