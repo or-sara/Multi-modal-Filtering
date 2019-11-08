@@ -16,3 +16,7 @@ image to night image.
 RGB-Nir restoration: There are two input images one of which is hazy RGB image. The other one is gray level Nir image. Using
 the Nir image we dehaze the hazy RGB image.
 
+Structure transferring: We are given two different images. One of them is used as background and the other one foreground. 
+We transfer the details of foreground image onto background image by scaling the details. We create different visual effects.
+
+
